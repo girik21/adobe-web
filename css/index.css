@@ -35,12 +35,7 @@ li {
   
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 1032px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
+
 
 h1{
   color: white;
@@ -71,12 +66,21 @@ h1{
 }
 
 #main .contact {
-  background-color: white;
   color: black;
+  background-color: whitesmoke;
+  font-size: 18px;
+  padding: 0px;
   height: 10px;
   text-align: center;
-  line-height: 30px;
+  line-height: 17px;
+  
 
+}
+
+.smol {
+  font-size: 10px;
+  padding: 0%;
+  background-color: whitesmoke;
 }
 
 nav {
@@ -234,7 +238,6 @@ align-content: center;
   color: red;
 }
 
-
 .spanner {
   color: black;
   font-weight: lighter;
@@ -250,8 +253,6 @@ align-content: center;
   margin-right: 40px;
 
 }
-
-
 
 .list li {
   width: 49%;
@@ -299,15 +300,17 @@ align-content: center;
     font-size: 30px;
     padding: 40px;
     margin-top: 40px;
+   
     }
 
-.topics-title {
+   .topics-title {
       font-size: 10px;
       margin: 10px 0;
-      font-weight: lighter;
-      
+      font-weight: lighter; 
+      text-underline-position: under;    
     }
 
+ 
    
 #topics ul {
       display: flex;
@@ -317,6 +320,7 @@ align-content: center;
 
 #topics li {
       width: 32%;
+      justify-content: space-between;
     }
 
 .bolder {
@@ -436,8 +440,8 @@ h1{
 }
 
 .contactone {
-  font-size: 26px;
-  margin-top: 150px;
+  font-size: 29px;
+  margin-top: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   
@@ -527,22 +531,51 @@ h1{
     font-size:  18px;
     font-weight: lighter;
     margin-bottom: 10px;
-    letter-spacing: 5px;
+    padding: 15px;
+    letter-spacing: 7px;
     color: #f0f0f0;  
   }
 
   .bantwo {
     color: white;
-   margin-left: 40px;
+   margin-left: 90px;
    letter-spacing: 2px;
    line-height: 15px;
+   font-size: 10px;
     
   }
 
 .sideto {
   color: whitesmoke;
-  margin-left: 900px;
+  margin-left: 1000px;
 letter-spacing:  6px;
 font-weight: lighter;
 }
 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+  letter-spacing: 4px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+
+  
+  #main .banner-text{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #main nav{
+    display: none;
+  }
+  }
