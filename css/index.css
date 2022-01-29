@@ -34,6 +34,14 @@ li {
   
   
 }
+
+.wrapper {
+  width: 100%;
+  max-width: 1032px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 h1{
   color: white;
   text-align: left;
@@ -392,20 +400,149 @@ h1{
     .texty{
       color: black;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 30px;
+      font-size: 20px;
       padding: 40px;
-      margin-top: 40px;
       float: right;
-      margin-right: 580px;
-      line-height: 250px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      margin-right: 250px;
+      line-height: 50px;
       }
 
-.spantext {
+      .texty h2 {
+        color: red;
+      }
+      .texty p {
+        color: black;
+        font-weight: lighter;
+        line-height: 28px;
+        margin-top: 56px;
+      }
+
+  .spantext {
   color: black;
   font-weight: lighter;
   font-size: 15px;
   margin-left: 7px;
   text-decoration: none;
+  justify-content: center;
   
+}
+
+#contact {
+  background-color: whitesmoke;
+  padding: 2%;
+  margin-top: 180px;
+}
+
+.contactone {
+  font-size: 26px;
+  margin-top: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
+  
+}
+
+.phrase {
+  color: black;
+  text-align: center ;
+  margin-top: 50px;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.phraseone {
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 90px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dt {
+  width: 15%;
+  margin-left: 0px;
+  color: black;
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 50%;
+  margin-left: 170px;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#contact dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+#contact .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
+
+#footer {
+  background-color: black;
+  
+  padding-bottom: 20px;
+}
+#footer .flex {
+  display: flex;
+  padding: 40px 0;
+}
+
+.info {
+  color: whitesmoke;
+  margin-top: 100px;
+  
+  }
+
+  .ban {
+      
+    margin-left: 70px;
+    line-height: 40px;
+    font-size:  18px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    color: #f0f0f0;  
+  }
+
+  .bantwo {
+    color: white;
+   margin-left: 40px;
+   letter-spacing: 2px;
+   line-height: 15px;
+    
+  }
+
+.sideto {
+  color: whitesmoke;
+  margin-left: 900px;
+letter-spacing:  6px;
+font-weight: lighter;
 }
 
