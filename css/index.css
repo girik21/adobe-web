@@ -80,7 +80,8 @@ h1{
 .smol {
   font-size: 10px;
   padding: 0%;
-  background-color: whitesmoke;
+  font-weight: lighter;
+  
 }
 
 nav {
@@ -310,6 +311,10 @@ align-content: center;
       text-underline-position: under;    
     }
 
+    .collor {
+      background-color: white;
+      padding: 20px;
+    }
  
    
 #topics ul {
@@ -524,10 +529,39 @@ h1{
   
   }
 
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  div {
+    border-radius: 5px;
+    background-color: transparent ;
+  }
+
   .ban {
       
     margin-left: 70px;
     line-height: 40px;
+    margin-top: 10px;
     font-size:  18px;
     font-weight: lighter;
     margin-bottom: 10px;
@@ -563,6 +597,7 @@ font-weight: lighter;
   color: white;
   letter-spacing: 4px;
 }
+
 
 
 @media screen and (max-width: 768px) {
