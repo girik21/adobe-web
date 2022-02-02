@@ -3,6 +3,13 @@
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
 
 html {
   font-size: 100%;
@@ -228,16 +235,41 @@ align-content: center;
   
 }
 
+
+
+
 .workhead {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   padding: 40px;
+  
+  
   }
 
-.under {
-  color: red;
-}
+ #works h4{
+   position: relative;
+   text-decoration: none;
+   
+ }
+
+ .workhead:after{
+   content: "";
+   position: absolute;
+   background: black;
+   height: 3px;
+   width: 20px;
+   left: 0;
+   bottom: 3px;
+   margin-left: 45px;
+   margin-bottom: 20px;
+
+   
+ }
+ 
+
+
+
 
 .spanner {
   color: black;
@@ -245,13 +277,16 @@ align-content: center;
   font-size: 15px;
   margin-left: 5px;
   text-decoration: none;
+  
 }
+
 
 .list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-right: 40px;
+  margin-top: 30px;
 
 }
 
@@ -301,8 +336,30 @@ align-content: center;
     font-size: 30px;
     padding: 40px;
     margin-top: 40px;
-   
     }
+
+    #topics h4{
+      position: relative;
+      text-decoration: none;
+      
+    }
+   
+    .topic:after{
+      content: "";
+      position: absolute;
+      background: black;
+      margin-bottom: 20px;
+      
+      height: 3px;
+      width: 20px;
+      left: 0;
+      bottom: 3px;
+      margin-left: 45px;
+      
+    }
+
+    
+   
 
    .topics-title {
       font-size: 10px;
@@ -418,14 +475,28 @@ h1{
       line-height: 50px;
       }
 
-      .texty h2 {
-        color: red;
+      #access h2{
+        position: relative;
+        text-decoration: none;
+        
       }
-      .texty p {
-        color: black;
-        font-weight: lighter;
-        line-height: 28px;
-        margin-top: 56px;
+     
+      .texty:after{
+        content: "";
+        position: absolute;
+        background: black;
+        height: 3px;
+        width: 20px;
+        left: 0;
+        bottom: 3px;
+        margin-left: 45px;
+        margin-bottom: 300px;
+        
+        
+      }
+
+      .hello {
+        margin-top: 70px;
       }
 
   .spantext {
@@ -507,6 +578,8 @@ h1{
   color: #fff;
   padding: 15px 0;
   border: solid 1px #24292e;
+  width: 375px;
+ height: 25px;
 }
 #contact .button input:hover {
   background: #fff;
@@ -551,10 +624,11 @@ h1{
   }
   
   
-  
-  div {
-    border-radius: 5px;
-    background-color: transparent ;
+  .form{
+    width: 550px;
+ height: 450px;
+ margin: auto;
+ position: relative;
   }
 
   .ban {
