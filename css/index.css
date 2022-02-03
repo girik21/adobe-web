@@ -684,16 +684,74 @@ font-weight: lighter;
 
 
 @media screen and (max-width: 768px) {
-
-
-
-  
-  #main .banner-text{
+ 
+  /*header*/
+  #header {
+    max-width: 100%;
+    height: auto;
     flex-direction: column;
-    align-items: flex-start;
+  }
+  #header li {
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+  #header li:first-child {
+    margin-left: 0;
   }
 
-  #main nav{
-    display: none;
+   /*works*/
+  #works ul {
+    flex-direction: column;
   }
+  #works li {
+    width: 100%;
   }
+ /*access*/
+  #access {
+    flex-direction: column;
+  }
+
+  #access li {
+    width: 100%;
+  }
+
+  #access {
+    flex-direction: column;
+  }
+/*topic*/
+#topics {
+  flex-direction: column;
+}
+
+#topics li {
+  width: 100%;
+}
+
+#topics {
+  flex-direction: column;
+}
+ 
+/*catalog*/
+  .catalog-antique {
+    padding: 30px 0;
+  }
+  .catalog-antique .flex-item {
+    flex-direction: column;
+  }
+  .catalog-antique .item {
+    width: 100%;
+  }
+  .catalog-antique .item:first-child {
+    margin-bottom: 60px;
+  }
+  /*contact*/
+  #contact dl {
+    flex-direction: column;
+  }
+  #contact dt {
+    width: 100%;
+  }
+  #contact dd {
+    width: 100%;
+  }
+}
